@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_request_type" table="x_58872_needit_historic_">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>import_attribute_name=Request type,edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Request type</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_request_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_58872_needit_historic_</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 19:59:32</sys_created_on>
+        <sys_id>506eb40edb1b7300b27d924bdb961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_x_58872_needit_historic__u_request_type</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-17 13:51:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_dictionary_x_58872_needit_historic__u_request_type</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_request_type" table="x_58872_needit_historic_">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>import_attribute_name=Request type,edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Request type</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_request_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_58872_needit_historic_</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 19:59:32</sys_created_on>
+        <sys_id>506eb40edb1b7300b27d924bdb961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_x_58872_needit_historic__u_request_type</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-17 13:51:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>804668541</payload_hash>
+        <record_name>Historic NeedIt Data.Request type</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:37</sys_created_on>
+        <sys_id>8c0aaeb02f7a2010ca5b4ae72799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87a81b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:37</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>c80aaeb0b17a2010d0bbc4755ac92bc0</update_guid>
+        <update_guid_history>c80aaeb0b17a2010d0bbc4755ac92bc0:0,f5e96ab0357a20109de07dfe89886463:115503059,b876d99cd7126010cdd0451c5c285e2c:0,5066959c2d126010dce16495701bfdbb:115503059,e421f2372402201013d8d76f3fcd7e34:0,2011bef3ab022010d8998c8cc35c40d2:115503059,2cfd7cc3c2312010316bbf19cf077d5a:0,deadb883b6312010675ec0cd0f64b7af:115503059,12aaf948321120103e9050bce9d6e44e:0,97a894c32dc790104d666a64d833153b:115503059,a909cd53ffae1c10bbdedee024b9854f:0,fdb8600784595490361344c9cf2223b8:115503059,5947e7e66c551490f4128f6a780a6a9c:0,bc07a7a614551490a9707e4e070b6415:115503059,bbb692516391dc50d10550bc955998b6:0,f2a65e11cf91dc50c03e0fcb8cc0a616:115503059,c596dda65f3c1410a6f0501742a003ea:0,1586d9a6713c14104c7ebd7351515fb7:115503059,678510e294141814362c08506e556fce:0,78dc206dfd0e0410396a0a21cda05a6e:115503059,7b839085767c4010e6b8e19c49bdefe0:0,baccbeab898c0010a4d336a1e770f35b:115503059,523c36ab748c0010202013916aab0805:0,f6cbf26b708c0010eeb0735281a66130:115503059,0d5ec96783880010d9dd3ff31a3a3eeb:0,0e4e0967838800103e54fa53a60dee87:115503059,5d0e0d27038800104ab40c2c64aad7e4:0,ffedc52745880010997c1d201677df40:115503059,01a91aa9b0844010d7a984096e47b7f2:0,463c7b6a1e93f300d4d9d056cd4a4888:115503059,fc6eb40e801b7300b23c850090ceebf1:0,605eb00e721b730074ccb36f0104f587:115503059,feefa57aa20333003294cd2796abff94:0,4bdfa17ab103330004001ca5d235da41:115503059,637aa705060333003c7e5b19d43244fa:0,733aa7c1420333004650c1e9b5bf10c7:115503059,2bdbe6c0e3323300b78ad5ab4433a492:0,22cba2c013323300b98f61c6ce06f02c:115503059,f163196d9e223300834b12a1c1f6725f:0,3563196dd4223300e9c6acb8d913455a:2076766887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:52:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1ede61057b21400ca2a322d5432d8859</sys_id>
+        <sys_metadata>faf96eb02f7a2010ca5b4ae72799b6e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">57c1b0314fb13200cb281b818110c7a0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_dictionary_x_58872_needit_historic__u_request_type</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_58872_needit_historic__u_request_type">8c0aaeb02f7a2010ca5b4ae72799b6c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:52:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

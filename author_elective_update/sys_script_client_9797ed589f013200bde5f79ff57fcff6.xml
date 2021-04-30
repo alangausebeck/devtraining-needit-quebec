@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Requested for value to the currently logged in user for new records. Users can change the field value.</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+    if(g_form.isNewRecord()){
+        g_form.setValue('u_requested_for',g_user.userID);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-16 01:17:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9797ed589f013200bde5f79ff57fcff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_9797ed589f013200bde5f79ff57fcff6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-16 01:17:29</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_script_client_9797ed589f013200bde5f79ff57fcff6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description&gt;Set the Requested for value to the currently logged in user for new records. Users can change the field value.&lt;/description&gt;
+        &lt;field&gt;active&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;false&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;NeedIt Set Requested for&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+    if(g_form.isNewRecord()){
+        g_form.setValue('u_requested_for',g_user.userID);
+    }
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-02-16 01:17:29&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;9797ed589f013200bde5f79ff57fcff6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;NeedIt Set Requested for&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_9797ed589f013200bde5f79ff57fcff6&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-02-16 01:17:29&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_58872_needit_needit&lt;/table&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>2042466601</payload_hash>
+        <record_name>NeedIt Set Requested for</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:45</sys_created_on>
+        <sys_id>7d0a22f02f7a2010ca5b4ae72799b680</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c5a60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:45</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b90a22f03c7a20103615c9706f10fe80</update_guid>
+        <update_guid_history>b90a22f03c7a20103615c9706f10fe80:0,18e9e6b0a07a20103f4e82a103299cd4:-1470651955,c2761d9c071260108b85b497e3c52781:0,0f56559c4712601051f15fd142cb3d56:-1470651955,11213637f40220103288768ae57562ba:0,27017ef3ff0220101a8747c83e566d93:-1470651955,c2fdfcc30f312010d7466f5ba6c38020:0,f0ad388369312010978e83e68d60c4ec:-1470651955,18babd48f6112010fd9ca2ca4d135c5f:0,52c93dc05b11201068e0bcca3562da0a:-1470651955,8e7c6fad7230201035a8e533e3e0f429:0,885ae36507302010c8911fc1d24a0c2d:-1470651955,245d467e916c2010f6a7d1f19beb215d:0,6dbc06babd6c20106d0e9b862e891251:-1470651955,6b5245020914201087ea240e3885bd29:0,ada814c370c7901030d796138e500c85:-1470651955,0709419321ae1c10c0c14e2ca5191a5d:0,4a97419b046e1c1018becc0af5a752a2:-1470651955,a159ecc7d4595490eb372e88d8a06468:0,b0b820076b5954901c9eec91f6b9f997:-1470651955,e2476be646551490b9faeee6119b9057:0,abf627a60a5514903edb676e267d64b4:-1470651955,8ac65651c191dc50902f2500ae8f25da:0,b9a6da113f91dc5030908fc04509addc:-1470651955,429651e6a23c14106cf74c05d5f92c5c:0,208699a6173c1410c2bdd223d593ef72:-1470651955,f09590e2041418140bc5db4e2f10f53b:0,e5b4d4aeb3d0181491eaf2d5b9f3469e:-1470651955,4e483dc38c7bc890ea9080967321498a:0,fe3839c3c17bc890fad8c1d54b1c7c57:-1470651955,ff8771835d7bc89098727ac5167d6e73:0,64577d036b7bc89030f51162224f81f2:-1470651955,39c639cf4e3bc8901566e2868e66b856:0,6586f18f943bc890770c3365075f755d:-1470651955,80e295c4baa700506481aabcaba6def7:0,70d2d1c409a7005093e167f4bee5664a:-1470651955,a6c7edf3f703001024f98957761a6828:0,3ccce82da70e04100f5a0e6ef6fc55ad:-1470651955,8d931485907c4010a5e0d8f4ea775771:0,f5831085447c4010fe2374d67718ef6b:-1470651955,13ecb6ebbd8c00104c3fa0291a7d50c6:0,23dcb2ebd08c0010cdfc9a5616be7ce1:-1470651955,673c76ab958c001051637af383d5c956:0,fb2c72ab588c00106112a7f3ba475005:-1470651955,f6dbf66bde8c001055f2dca904dc3c8a:0,9acbb26b768c00102dcbb7b8b77a0829:-1470651955,5a5e4d67e3880010f4975d81d474e62e:0,6d4ec567a488001083519911ea6435fc:-1470651955,160e8d277888001048ee5b1018f2f372:0,15fd0927d088001092df725491bb72a0:-1470651955,12a99aa9818440109d21c64312de53c7:0,d69996a9208440107382d45ce11aaf5e:-1470651955,6258d2e51384401066d2136d1417410c:0,d348dea59d844010d3551f925f17f2ca:-1470651955,1e80ad2fb9633300f2fc973c1d6c1148:0,ca4021eb3d6333008aeb684cc56a10ea:-1470651955,324cbf6a4893f3000b42939976ac2c58:0,183cf76a0193f300a1f44f9e0e91da3d:-1470651955,256e380eba1b7300ae14f38ebf30bd5b:0,e74e700ee31b73005fb56f75ec33d724:-1470651955,b3efe57a13033300d9f71fba13ff23ee:0,02df217a300333007487287d25eed7eb:-1470651955,a48a2b056403330067188c9678eca420:0,123a67c11c03330068ccab82e7e88e3a:-1470651955,e0eb2ac05e323300ac84f1cbd91efadd:0,59db66c01532330085bbab048d1a202c:-1470651955,a263596dc4223300f001b19390c32553:0,c253d16dda223300d4d9ffe514009ff2:-1470651955,33ac58d80622330019bd83eaf50eecb1:0,20ac54d8fd2233007398a150551138a7:-1470651955,398c0f22425a73006bf7df36cfe4a79c:0,467c0b22505a73001abd89b7411a00e9:-1470651955,ab2a0a4bdf0233005f16943704c27b3e:2042466601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:52:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8d2ed90def2b42d59fe078d0db2ba961</sys_id>
+        <sys_metadata>9797ed589f013200bde5f79ff57fcff6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_client_9797ed589f013200bde5f79ff57fcff6</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9797ed589f013200bde5f79ff57fcff6">7d0a22f02f7a2010ca5b4ae72799b680</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:52:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-02 20:42:05</sys_created_on>
+        <sys_id>1f9835854f993200cb281b818110c72d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedGlideElement</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_1f9835854f993200cb281b818110c72d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-02 20:42:05</sys_updated_on>
+        <target_name>ScopedGlideElement</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_scope_privilege_1f9835854f993200cb281b818110c72d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-02 20:42:05</sys_created_on>
+        <sys_id>1f9835854f993200cb281b818110c72d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedGlideElement</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_1f9835854f993200cb281b818110c72d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-02 20:42:05</sys_updated_on>
+        <target_name>ScopedGlideElement</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>1110647279</payload_hash>
+        <record_name>ScopedGlideElement</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:44</sys_created_on>
+        <sys_id>ad0a22f02f7a2010ca5b4ae72799b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c26c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:44</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>6d0a22f0a97a2010fe0f4b02cc1c793d</update_guid>
+        <update_guid_history>6d0a22f0a97a2010fe0f4b02cc1c793d:0,48f9eab0b27a2010a255556e0768f82c:-25382739,b5761d9c371260103c645f554a687959:0,b966199c231260101b6b3184d7fb940e:-25382739,512136379b022010d34fdcca6852f57e:0,02113237c10220108689bc77dff74554:-25382739,31fdbcc3d831201000b4318f2db98ce4:0,66bdfc83273120102a6dfd7c93f7b87d:-25382739,10babd482a1120109dd524567f161138:0,0f8a3d08711120107d321e6473019920:-25382739,ca7c2fadde302010785ad13b2ffb2ff4:0,cfabafa9cd302010680a3cce2348b049:-25382739,dc5d467ebc6c2010c5fd9a39599f1d3b:0,1ebc46bae06c20108df652a956340e16:-25382739,2b5205023c142010f3b823f5dda06df6:0,6eb858c38cc7901049ddeae2fe066167:-25382739,b2094193a3ae1c109c7ac45a751acc29:0,bba84ddf836e1c1034f72f39dadf39b4:-25382739,2d59ecc79c59549058e05cddfd33d428:0,9fb8e007ff59549045aa5dfc1130365f:-25382739,2a476be680551490bed7df1329866b36:0,50176ba62c5514901bb9d664eb2adece:-25382739,79c65651b991dc50bd702b4649f2199a:0,54b69e115891dc50b47168e2aa902d5c:-25382739,7d9651e6d63c141049d0604408218a1b:0,72865da6ee3c141050827c2e6590f311:-25382739,249590e2c51418141ce77dcb3adda818:0,327558a2871418145e7506e1dc8c31c8:-25382739,3d483dc3ea7bc890df35fabaa7f9d870:0,cd38b5c3d47bc890678b41739f08fa21:-25382739,2f877183787bc89007277cc171485548:0,7247f903217bc890c7c256bde83b7edb:-25382739,7dc639cfd63bc89073ae0e24cceb1941:0,0086718f7d3bc8905cba458176510882:-25382739,f7d295c494a700504c12b175676b96e2:0,4fc211c4c2a70050879a398517d60ae8:-25382739,a6c7edf3ab03001096f0ed25d9056f02:0,f8bc282d440e0410328c5e03db08520f:-25382739,7c9314852b7c40102bda292bd1771d41:0,07735c45537c401006eb6b88b7521774:-25382739,8fecb6eb138c001066180543064c8fa2:0,98dcfeab898c00109db11aca925125ae:-25382739,e33c76abdb8c0010116e5cb4923e7d39:0,b02cbe6b828c0010f16411c86e555f6f:-25382739,36dbf66b158c0010ab2e969d09338767:0,cfbbbe2bd98c001039521e3710689372:-25382739,c65e4d678f8800105cf402945d30d611:0,b93e0567b28800106a89192fe678f88c:-25382739,da0e8d271e880010da33ee61b44d4948:0,56ed452794880010061247b79b31a3e7:-25382739,1aa99aa9e9844010dc4ca6e8f2d7109d:0,e78916a9a8844010a1c4dbfada1c0d14:-25382739,e65892e553844010f56870c02c827efa:0,b7381ea54a844010f4b146d1761e29a5:-25382739,5a80ad2f38633300043abf9bec0b5131:0,ab00a96b33633300b4c2024e933ad941:-25382739,3a4cbf6a0193f3003f31f5b101e05236:0,213c3b6a4c93f3007d26fc8bcc9c5af4:-25382739,256e380ecc1b73005f325be7abe30b15:0,1e5e340e6b1b73009ad27b2fa488f01e:-25382739,ebefe57acc03330074eb4d783d3a2fc4:0,68ef257a1e033300ed4e12d050560d02:-25382739,148a2b05e803330078b4ae35ae639305:0,d74aabc1cf0333002e983137e69805bb:-25382739,e8eb2ac03e323300de13d9e62c9bd9b0:0,7fcbe2c04132330048a2ead89c65e06b:-25382739,2263596d082233009bef1430a866293c:0,0463956d372233003532bfcaf3b2dd55:-25382739,bfac58d88c2233004869406ee40f6c99:0,b9acd4d85b223300876fb20404660525:-25382739,b58c0f22ff5a730050f946b623b7b28c:0,667c4b22715a730034fe4eb0f9e203af:-25382739,e32a0a4b6102330034d646be6ed4122a:1110647279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>06ab0b21189e482a809754d9bc2def64</sys_id>
+        <sys_metadata>1f9835854f993200cb281b818110c72d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedGlideElement</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_1f9835854f993200cb281b818110c72d</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_1f9835854f993200cb281b818110c72d">ad0a22f02f7a2010ca5b4ae72799b656</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

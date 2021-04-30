@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.validateEmailAddress</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>validateEmailAddress</name>
+        <script><![CDATA[function validateEmailAddress(emailStr){
+    // Use JavaScript coercion to guarantee emailStr is a string
+    emailStr = emailStr + '';
+    // Compare emailStr against the allowed syntax as specified in the regular expression
+    // If emailStr has allowed syntax, return true, else return false
+    if(emailStr.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+        return true;
+    }
+    else return false;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-08 03:42:48</sys_created_on>
+        <sys_id>8ba845f69f513200bde5f79ff57fcf47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_8ba845f69f513200bde5f79ff57fcf47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-08 03:42:48</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_script_include_8ba845f69f513200bde5f79ff57fcf47</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_58872_needit.validateEmailAddress&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;validateEmailAddress&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[function validateEmailAddress(emailStr){
+    // Use JavaScript coercion to guarantee emailStr is a string
+    emailStr = emailStr + '';
+    // Compare emailStr against the allowed syntax as specified in the regular expression
+    // If emailStr has allowed syntax, return true, else return false
+    if(emailStr.match(/^(([^&lt;&gt;()\[\]\\.,;:\s@"]+(\.[^&lt;&gt;()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+        return true;
+    }
+    else return false;
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-08 03:42:48&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;8ba845f69f513200bde5f79ff57fcf47&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;validateEmailAddress&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_8ba845f69f513200bde5f79ff57fcf47&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-08 03:42:48&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-231483672</payload_hash>
+        <record_name>validateEmailAddress</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:45</sys_created_on>
+        <sys_id>8e0a22f02f7a2010ca5b4ae72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c76b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:45</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ca0a22f0dd7a20100ecbe3fd398ee897</update_guid>
+        <update_guid_history>ca0a22f0dd7a20100ecbe3fd398ee897:0,45f9eab00e7a2010fa2b38c76ac79ac6:815838377,46761d9c9212601000e7c6c1f110f298:0,ea66199c71126010c3c1e642d2ef1ce5:815838377,69213637940220102972b2b4dd2209ce:0,ee1132374002201004272eaffaf0f1da:815838377,9efdfcc3bf312010e38d9e2aea762234:0,deddb4c353312010bdfb852baee756f2:815838377,a0babd48c81120105d6d754cc8ad8bc1:0,a78a7d08c5112010c5ea099effb18f31:815838377,527c6fad6130201049d29e9f934bbc89:0,80bbefa95d302010905fd65f6c6c5d65:815838377,605d467ef46c2010630873222cb9a488:0,c8cc46ba106c2010ae3d919dfd0e3bdd:815838377,bb524502ad142010fc03b9f6742bbd4a:0,a4c898c3bec79010f02ea0027c1c45bc:815838377,170941935aae1c1099136981aa803a8d:0,b0c80513a6ae1c1025fe70b7cf60f2eb:815838377,2959ecc7b359549012c6d58c045e5f78:0,c8c82407f7595490e655c85a9bcf0114:815838377,3a476be6a355149047c66e899576336b:0,762723e66955149073d99c448953208e:815838377,46c656513491dc50f13a5c76d0cae9f1:0,41b6de117691dc50a9432fed43f3e80c:815838377,069651e6513c14103642c72ad02a417f:0,53865da6283c14104dcb1097e5dae395:815838377,bc9590e2bb141814c44483a8f8d5965b:0,d37598a2a31418140a100048fbd2e166:815838377,4a483dc30a7bc890389f61d19a4f299e:0,7a3839c3547bc89040b5b7244d1a6a35:815838377,f7877183c07bc890e365bb55ebda5291:0,10577d03c57bc890be416c03a93d1080:815838377,71c639cf2a3bc8906b8928329f20e868:0,9d86f18f6a3bc890f081859f6c166217:815838377,c8e2d5c40ea70050da1466c8e74b1508:0,f8d2d1c4dda70050a026a67da6483927:815838377,6ac7edf38a03001049a35a75ffe1a03c:0,9ccce82da10e0410aebb20cc410bdb1f:815838377,41931485ef7c4010f2536e7eed78b287:0,a98310854d7c4010a671618170d7482a:224540052,d3ecb6ebf88c0010e44b2f16a9881bee:0,87dcb2eb948c001089f1f92f1f1e4560:224540052,673c76abd98c00104b8d1882e47be969:0,272c32ab6b8c0010ce885fec7c2661e5:224540052,f2dbf66b188c00103ce7f11b92328ba6:0,46cbb26bcd8c001094df7ae3e19de000:224540052,5a5e4d67d3880010a47a9a9141806141:0,5d4ec5671a880010d598abdd441e3bd3:224540052,260e8d274c88001049a53dde3ebf0f85:0,cdfd092757880010ad4a64b423751f76:224540052,12a99aa977844010379d2442d7f427da:0,829996a9738440104b4d6e7b1140bd31:224540052,e658d2e51984401007d76f1f6f4d3d1c:0,cb48dea53c844010bd483e016d428e9a:224540052,1e80ad2fb1633300e9e0d43e1e923a5b:0,6840adab7f6333003c43b5fceb6c0d80:224540052,7a4cbf6ae993f3005746854a21594072:0,223cbb6af893f3005b6e12c324e54f38:224540052,b96e380ee41b730026c42fc93d71396e:0,f25e340e2a1b7300b73bca187e8bf6de:224540052,bbefe57ab6033300efb30ad8dbaab5ff:0,09ef257afe0333007d6fbf9a0625d775:224540052,ec8a2b050b033300107425f4955b4e31:0,496a23054b03330027e7f529e4101e39:224540052,68eb2ac01a3233009a3b2cebcf8b4ff0:0,09db26c0633233002811b37f37f2f8d8:224540052,7263596d9c22330067c5fc3bb7f14771:0,d863956d20223300a073387702b8ceaf:224540052,ffac58d8d4223300bf56c054bad987ce:0,46acd4d8e3223300f8d760d7d2aed49a:224540052,b98c0f22c95a7300a33c7042fb193eab:0,237c8b22f05a73004d656c39eedd9b8c:224540052,7f2a0a4b33023300cf02184684a8a54f:779442201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>06163ce4c84c4dc59fdec99fe35551d1</sys_id>
+        <sys_metadata>8ba845f69f513200bde5f79ff57fcf47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_include_8ba845f69f513200bde5f79ff57fcf47</sys_update_name>
+        <sys_update_version display_value="sys_script_include_8ba845f69f513200bde5f79ff57fcf47">8e0a22f02f7a2010ca5b4ae72799b697</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

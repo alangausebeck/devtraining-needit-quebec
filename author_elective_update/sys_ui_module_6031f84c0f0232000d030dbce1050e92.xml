@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="NeedIt">42427f010fe83200cd674f8ce1050e42</application>
+        <filter/>
+        <name>NeedIt Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_58872_needit.needit_task_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6031f84c0f0232000d030dbce1050e92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_module_6031f84c0f0232000d030dbce1050e92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:43:12</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_ui_module_6031f84c0f0232000d030dbce1050e92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NeedIt">42427f010fe83200cd674f8ce1050e42</application>
+        <filter/>
+        <name>NeedIt Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_58872_needit.needit_task_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6031f84c0f0232000d030dbce1050e92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_module_6031f84c0f0232000d030dbce1050e92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:43:12</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>]]></payload>
+        <payload_hash>254475436</payload_hash>
+        <record_name>NeedIt Tasks</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:47</sys_created_on>
+        <sys_id>ee0a62f02f7a2010ca5b4ae72799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87d0030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:47</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2e0a62f0107a20109260783313663b30</update_guid>
+        <update_guid_history>2e0a62f0107a20109260783313663b30:0,22e9aab0787a201025b54c179cf5561e:1165446593,a6765d9ca5126010096e03e253adb318:0,7466d59ca3126010a4bd432b48916646:1165446593,712176372902201069a0ad878e349a67:0,c111fef342022010a2dc36fc606c5358:1165446593,66fdfcc3e3312010c7f990b238fdfdc2:0,8fadf8838f312010e8eb26930166a55d:1165446593,38bafd483411201034e09c883456f492:0,f8b818c338c79010eb52f53a97e3a410:1165446593,ff09819364ae1c105e3cf2d03064d1b1:0,d2b8a0075f595490bb985585b7ed3058:1165446593,cb47abe6b65514909867eaf723762a19:0,6107a7a6cf5514903a3d2d105c646bc4:1165446593,6ec69651c491dc5068e6fc11f55489c1:0,5ba65e11d691dc5044c4a3f6652d9fa7:1165446593,1a9651e6923c14100111c6864f4fc2fe:0,31861da6f43c1410b5b2dbb8bbc4a94a:1165446593,999590e2a114181415eee177e3a166f4:0,eebc682dfc0e0410bbf6eb2628cd16cc:62255744,9dbc282d2d0e0410c532d387bbda5863:0,d59314854f7c401011dcee2fc92b47dd:0,02dc72ebb78c00103502976115a37164:62255744,99dc32eb298c0010b6d1ab373d133183:0,c84c76ab028c0010a8c23762d80328dc:0,0dcb326baf8c00100ad6b3f756d012e5:62255744,d4cbfe2b688c00101b743203961052c7:0,265e4d67548800101e9ad4dc37a75cb3:0,004e8567d18800104c8b9e3da1a19896:62255744,8f3e4567658800106aa81e5b5ba2f2b4:0,fe0e8d27e6880010c57817b3e5e232f6:0,1cfdc5272e88001011de88942debc3f0:62255744,83ed85273688001009ab8fdd1ca53174:0,bea9daa96a844010a72ea8541c739e4d:0,5a3c7b6ab393f3006336d1b2cf5d7dc4:62255744,f53c7b6a3193f3006aab142618a15b0e:0,866e380e7a1b7300db2ebbcef2d056c8:0,495ef00e451b73004ddf0377fde37b16:1165446593,84ff297af50333005c9d641d219e6759:0,e7dfe17af2033300c3e19375a5975407:1165446593,c18a2b05e303330059ef32022172c7a5:0,d84ae7c15303330096d160077c335367:1165446593,b4eb6ac09132330053738496d1fde556:254475436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:52:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>e92ca8229bb446be98f1726a0e61bbf9</sys_id>
+        <sys_metadata>6031f84c0f0232000d030dbce1050e92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_module_6031f84c0f0232000d030dbce1050e92</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_6031f84c0f0232000d030dbce1050e92">ee0a62f02f7a2010ca5b4ae72799b630</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:52:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

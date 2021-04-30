@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_58872_needit_needit</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Email Address Syntax Validate</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // Pass the Requested for email to the Script Include.  Store the return
+    // value from the Script Include in the isEmail variable
+    var isEmail = validateEmailAddress(current.u_requested_for_email);
+    // If isEmail is false (email address syntax is not valid) do not save
+    // the record.  Write an error message to the screen.
+    if(isEmail == false){
+        gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address.  You must provide a valid email address.");
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-08 03:44:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01e885f69f513200bde5f79ff57fcf52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Address Syntax Validate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_01e885f69f513200bde5f79ff57fcf52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-08 03:44:46</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=01e885f69f513200bde5f79ff57fcf52"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_script_01e885f69f513200bde5f79ff57fcf52</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;
+    &lt;sys_script action="INSERT_OR_UPDATE"&gt;
+        &lt;abort_action&gt;false&lt;/abort_action&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;action_delete&gt;false&lt;/action_delete&gt;
+        &lt;action_insert&gt;true&lt;/action_insert&gt;
+        &lt;action_query&gt;false&lt;/action_query&gt;
+        &lt;action_update&gt;true&lt;/action_update&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;add_message&gt;false&lt;/add_message&gt;
+        &lt;advanced&gt;true&lt;/advanced&gt;
+        &lt;change_fields&gt;false&lt;/change_fields&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;collection&gt;x_58872_needit_needit&lt;/collection&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;execute_function&gt;false&lt;/execute_function&gt;
+        &lt;filter_condition/&gt;
+        &lt;is_rest&gt;false&lt;/is_rest&gt;
+        &lt;message/&gt;
+        &lt;name&gt;Email Address Syntax Validate&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;priority&gt;100&lt;/priority&gt;
+        &lt;rest_method/&gt;
+        &lt;rest_method_text/&gt;
+        &lt;rest_service/&gt;
+        &lt;rest_service_text/&gt;
+        &lt;rest_variables/&gt;
+        &lt;role_conditions/&gt;
+        &lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // Pass the Requested for email to the Script Include.  Store the return
+    // value from the Script Include in the isEmail variable
+    var isEmail = validateEmailAddress(current.u_requested_for_email);
+    // If isEmail is false (email address syntax is not valid) do not save
+    // the record.  Write an error message to the screen.
+    if(isEmail == false){
+        gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address.  You must provide a valid email address.");
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-08 03:44:46&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;01e885f69f513200bde5f79ff57fcf52&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Email Address Syntax Validate&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_01e885f69f513200bde5f79ff57fcf52&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-08 03:44:46&lt;/sys_updated_on&gt;
+        &lt;template/&gt;
+        &lt;when&gt;before&lt;/when&gt;
+    &lt;/sys_script&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=01e885f69f513200bde5f79ff57fcf52"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-478470823</payload_hash>
+        <record_name>Email Address Syntax Validate</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:44</sys_created_on>
+        <sys_id>f50a22f02f7a2010ca5b4ae72799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c40b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:44</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>350a22f0037a2010f545dece124c006e</update_guid>
+        <update_guid_history>350a22f0037a2010f545dece124c006e:0,84e9e6b0307a201004bca9a2f3b3c8b4:-1835088403,7d761d9c17126010eaf5afbc75d7006e:0,0756559c30126010c77df6019c7dc337:-1835088403,dd2136376e022010192bb372170fc58e:0,63017ef38f022010c34c891b91928567:-1835088403,c6fdfcc3583120109e66db17f1ea8901:0,6cad3883ad312010591eba8f05fe08a7:-1835088403,14babd48971120109111e79d7c259c4d:0,dac9f9c0ab112010bbe0295f8cf229e1:-1835088403,0e7c6faddf302010317754e67415890f:0,b34ae365ed302010872818070bba0b10:-1835088403,6c5d467ead6c201074547dcc2a202754:0,4dbc06bac86c201033516cd67dd8f42b:-1835088403,ef52450208142010911888de8b24f102:0,55a814c374c79010418f9362a768a05a:-1835088403,8f09419371ae1c1021597e6e74b7be4a:0,3997419b896e1c10d7b888dd92d3e66d:-1835088403,ed59ecc76c5954909ff2a757c13a224d:0,bcb820075e595490d1b5fef4a53d8264:-1835088403,22476be6a5551490950b18965acc6a45:0,13f627a62e5514907b177f862cad0e6d:-1835088403,0ec65651d291dc509a1c3948bac840af:0,bda6da119891dc507429f0fdef38eebf:-1835088403,4a9651e62a3c141036df25e52bbb003d:0,9c8699a6bf3c1410c94ca23e60db9755:-1835088403,609590e28314181414928e8e7de34f29:0,c9b4d4ae50d01814c612765c79e8103f:-1835088403,fd483dc36c7bc8900b3723b90bf2ca7d:0,583875c3db7bc8907805c4c11c463587:-1835088403,a38771832e7bc890e9ac84ae18d35760:0,4e47f903bc7bc8908deaa0eead3b532b:-1835088403,b1c639cf2f3bc890da5f584e0cafc94e:0,cf76318f303bc890011f79a0b7051761:-1835088403,3fd295c432a70050412804456f5472ee:0,eec211c4aba70050c12e7d0f20a95e44:-1835088403,26c7edf336030010f9da6232bde7cc0e:0,03aca42d490e04108ce4f3b19a52209c:-1835088403,b4931485387c40102ef737b6c2164661:0,5a731c45427c401038154fc26bc16e9c:-1835088403,17ecb6ebaa8c0010d9bc22fadfbf18ad:0,72ccbeab288c0010a7ff29f7699f763e:-1835088403,2f3c76abd78c0010adc65463162e2445:0,142c7e6bb88c00103fba18ad307d93ef:-1835088403,badbf66b7b8c00107ce93516762c3771:0,b9bb7e2bea8c00105f3c6a0feed18c8a:-1835088403,125e4d67768800108e3d13d06b294f1e:0,243ec167fc880010aa9e788d97fa95e4:-1835088403,da0e8d270b880010d7448eaad06be961:0,a8ed0527d8880010e1721d520aabfc78:-1835088403,52a99aa990844010e934ad7be67386aa:0,2e89d2a9f0844010641463696d065a82:-1835088403,ae58d2e55f844010e8534cb52563d104:0,2238daa57d844010c4f5f53a83e0978b:-1835088403,9680ad2f0c6333007f2f118c4b05b83c:0,b3ff156b0b6333005075d14bafa0dde6:-1835088403,3a4cbf6ace93f300b06d4c9c8906e74c:0,cc3cf76a1793f30075a26d922a1fe418:-1835088403,a16e380e0d1b7300915e7c7763ae664c:0,db4e300e8e1b73008263018ffd0e72da:-1835088403,a7efe57a030333000cba9c80300382d2:0,8adf217acd0333004cb758ab2d029bc6:-1835088403,608a2b055f033300b0585833a8123311:0,4e3a27c1b9033300c271b51b66833fef:-1835088403,60eb2ac0cc323300ae24e3d4d4024ace:0,7ecba2c01e323300e71ddc2823c3b65c:-1835088403,2e63596d7e22330069d554ed02a23147:0,bd53d16ded22330063ee1445c4d9e6bb:-1835088403,7bac58d86a223300782fb69c288c5da5:0,a0ac54d811223300a03b8749321a5185:-1835088403,bd8c0f229e5a7300f8e407d0d7b72895:0,f17c0b22775a7300c6103a298cfcefce:-1835088403,e72a0a4b1d023300390efca38bd1c033:-478470823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:52:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1a9e502d6914425c88546e5438747d21</sys_id>
+        <sys_metadata>01e885f69f513200bde5f79ff57fcf52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Address Syntax Validate</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_01e885f69f513200bde5f79ff57fcf52</sys_update_name>
+        <sys_update_version display_value="sys_script_01e885f69f513200bde5f79ff57fcf52">f50a22f02f7a2010ca5b4ae72799b66e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:52:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <description>This event is fired for each NeedIt Task record due in the next 24 hours</description>
+        <event_name>x_58872_needit.dueSoonNeedItTasks</event_name>
+        <fired_by>Scheduled Script Execution - Find NeedIt Tasks Due Soon</fired_by>
+        <queue/>
+        <suffix>dueSoonNeedItTasks</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 01:08:41</sys_created_on>
+        <sys_id>003b6ba90f8232000d030dbce1050ecf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_58872_needit.dueSoonNeedItTasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_003b6ba90f8232000d030dbce1050ecf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 13:54:31</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sysevent_register_003b6ba90f8232000d030dbce1050ecf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>This event is fired for each NeedIt Task record due in the next 24 hours</description>
+        <event_name>x_58872_needit.dueSoonNeedItTasks</event_name>
+        <fired_by>Scheduled Script Execution - Find NeedIt Tasks Due Soon</fired_by>
+        <queue/>
+        <suffix>dueSoonNeedItTasks</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 01:08:41</sys_created_on>
+        <sys_id>003b6ba90f8232000d030dbce1050ecf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_58872_needit.dueSoonNeedItTasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_003b6ba90f8232000d030dbce1050ecf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 13:54:31</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+</record_update>]]></payload>
+        <payload_hash>707593758</payload_hash>
+        <record_name>x_58872_needit.dueSoonNeedItTasks</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:50</sys_created_on>
+        <sys_id>d70a62f02f7a2010ca5b4ae72799b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87dbe10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:50</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>170a62f0607a2010cb9102f4e960d0d4</update_guid>
+        <update_guid_history>170a62f0607a2010cb9102f4e960d0d4:0,83e9aab08e7a2010fc4640312c1a0188:41807117,1f765d9c9912601028ad00a0c903a3cd:0,48bd3c83ee31201076ccb35635ac73b9:41807117,a5ba3188b9112010387830a898e21090:0,d9b818c3eac79010b0989d342a2e7f9a:41807117,491945931aae1c10b7be22e4c4144692:0,1e072ba6c6551490ea216429b8f6750a:41807117,1bc6d651c591dc506cea1c350789a3af:0,63a65e115191dc50c70e344de14529e0:41807117,fe9691e6743c14105f8f5d6764303a95:0,0baca42d770e04102a5e57da2377578f:41807117,c293d485607c401015af8b1dffa35635:0,f43c3b6a1e93f300afbb2ca3f28a9841:-970610750,e66e780ec21b73005eadb8a2c514fd4f:0,155ef00e2c1b73006ea13e5b2460eb62:-970610750,18ff297a30033300962d6b71651f7dd0:0,914a2bc109033300e86f261a5c6425ee:-970610750,11eb6ac06f323300c6bbcf08fa297cef:707593758</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:52:58</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>02f3c3c6bfd547fc855cf06695f0f010</sys_id>
+        <sys_metadata>003b6ba90f8232000d030dbce1050ecf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.dueSoonNeedItTasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">9eb0384c0f0232000d030dbce1050e53</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sysevent_register_003b6ba90f8232000d030dbce1050ecf</sys_update_name>
+        <sys_update_version display_value="sysevent_register_003b6ba90f8232000d030dbce1050ecf">d70a62f02f7a2010ca5b4ae72799b6d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:52:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="DELETE">
+        <filter table="sys_user">nameSTARTSWITHbet^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="bet"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2017-04-05 19:30:02</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2017-04-05 19:30:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b2ea00c0f0232000d030dbce1050ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_filter_6b2ea00c0f0232000d030dbce1050ecc</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:30:02</sys_updated_on>
+        <table>sys_user</table>
+        <title>mobile</title>
+        <user display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</user>
+    </sys_filter>
+    <sys_translated_text action="DELETE" query="documentkey=6b2ea00c0f0232000d030dbce1050ecc"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_filter_6b2ea00c0f0232000d030dbce1050ecc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sys_user">nameSTARTSWITHbet^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="bet"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2017-04-05 19:30:02</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2017-04-05 19:30:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b2ea00c0f0232000d030dbce1050ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_filter_6b2ea00c0f0232000d030dbce1050ecc</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:30:02</sys_updated_on>
+        <table>sys_user</table>
+        <title>mobile</title>
+        <user display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</user>
+    </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b2ea00c0f0232000d030dbce1050ecc"/>
+</record_update>]]></payload>
+        <payload_hash>-1263514213</payload_hash>
+        <record_name>mobile</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:43</sys_created_on>
+        <sys_id>590aeeb02f7a2010ca5b4ae72799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87be4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:43</sys_updated_on>
+        <type>Filter</type>
+        <update_guid>950aeeb0b47a2010bf05b1530d048cf2</update_guid>
+        <update_guid_history>950aeeb0b47a2010bf05b1530d048cf2:0,20f9eab0397a2010381b6ca679c99a97:-340718725,e9761d9c13126010451f5d9280ca2728:0,d666199c24126010de17afd6cc420fc0:-340718725,01213637c6022010abecc4402aa63d5d:0,1a1132377602201058b36a66d4d1cbb5:-340718725,edfdbcc3633120103688e65b84706a9b:0,5bcd34c3f131201034cf09cac2011058:-340718725,4baa3d48b21120100a5bda4a1d42b155:0,d3b898c3c0c7901045ad0714ff36533b:-340718725,ae0901932dae1c10bf55d5a1e8cd16d9:0,23b8e0078059549052ecc62df867aac3:-340718725,52472be69c5514908c859db9dc93d2f7:0,6027afa6d55514906a555c6c6b973270:-340718725,c1c616511e91dc5030a29de99316c880:0,f0b69e119091dc503cb5b2c7fb5d36d7:-340718725,bd9611e69f3c1410789d9a60fb4cd8f3:0,cf865da65d3c1410c121b0152e92c66c:-340718725,549550e2ec14181400eb9c52f96810e5:0,3abca82d800e04101c101a6b3fac5805:-340718725,e8931485ba7c4010260fc94ebcf31607:0,16dc72ebe28c0010d307858cf1528197:-340718725,933c76ab178c00102a9468dc126c2e18:0,91cb726b2a8c0010b285184f2410463e:-340718725,465e0d67b888001038f3df67d2e93cf1:0,584e856780880010ce31208225401efa:-340718725,ce0e8d27808800100355bad54e721e27:0,24fd092776880010f772f2318626e209:-340718725,4aa99aa98b844010d286e85eea881271:0,1a3c7b6aa193f3004966f383a20329c7:-340718725,a96ef40ea61b7300a552ae49141c2bfb:0,225e340e9c1b7300edc56529ed4e39bf:-340718725,6befe57a210333002a1fda095c32949e:0,30ef257acf033300c8f015a036882e45:-340718725,508ae705ad0333005085ed7ee6bdefdf:0,635aafc15e0333006d73b22155624b9a:-340718725,54eb2ac0b43233000f723a8fb8aa367e:-1263514213</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter">sys_filter</sys_db_object>
+        <sys_id>1f08594468b54114b3464a31dd502144</sys_id>
+        <sys_metadata>6b2ea00c0f0232000d030dbce1050ecc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Sys User">592899307420330078509adcc48c87b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_filter_6b2ea00c0f0232000d030dbce1050ecc</sys_update_name>
+        <sys_update_version display_value="sys_filter_6b2ea00c0f0232000d030dbce1050ecc">590aeeb02f7a2010ca5b4ae72799b6f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

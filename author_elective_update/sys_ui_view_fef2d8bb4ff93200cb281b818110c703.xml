@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,Myhomepage</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-04 22:52:43</sys_created_on>
+        <sys_id>fef2d8bb4ff93200cb281b818110c703</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,myhomepage</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_view_fef2d8bb4ff93200cb281b818110c703</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-04 22:52:43</sys_updated_on>
+        <title>Sys_popup,myhomepage</title>
+        <user/>
+    </sys_ui_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_ui_view_fef2d8bb4ff93200cb281b818110c703</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,Myhomepage</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-04 22:52:43</sys_created_on>
+        <sys_id>fef2d8bb4ff93200cb281b818110c703</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,myhomepage</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_view_fef2d8bb4ff93200cb281b818110c703</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-04 22:52:43</sys_updated_on>
+        <title>Sys_popup,myhomepage</title>
+        <user/>
+    </sys_ui_view>
+</record_update>]]></payload>
+        <payload_hash>-862847805</payload_hash>
+        <record_name>Sys_popup,myhomepage</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:40</sys_created_on>
+        <sys_id>bc0aeeb02f7a2010ca5b4ae72799b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87b5a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:40</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>f80aeeb0b07a201094bbf2729d9bfc46</update_guid>
+        <update_guid_history>f80aeeb0b07a201094bbf2729d9bfc46:0,91f92eb0f07a2010b7c0c114c557b809:-1959801045,d176d99cf81260107afebf9178f119bf:0,7266599ceb126010e25ab2adb40b6635:-1959801045,b821f237f50220106bd418376c1f24ac:0,221172371d0220109583d5fb9150d530:-1959801045,cdfd7cc3623120109a97f7e1fa0380f6:0,e1edb8c3ea31201090aced1bd8046e75:-1959801045,faaaf948cf112010a722156d57142ace:0,2ac81cc36dc790103e63b9399aa93c89:-1959801045,8609019398ae1c109810f6823349f212:0,54c8240768595490f3883c0ee462fb75:-1959801045,f5472be6e1551490ae7265bb51d9931e:0,073767e6a2551490886e33640147591f:-1959801045,e8c6d251c691dc509bb01c5726974b8c:0,d9b6de11c591dc50ad4adfe052d4f962:-1959801045,299611e6643c141014cf84362ccff053:0,d3865da6ed3c1410ce38418c1618f9d3:-1959801045,409550e27b141814c6310e3bf8d8ed45:0,cddc206d570e0410c85449073d243c99:-1959801045,5493d085c87c401083a849b2a9c51088:0,ddec36eb7d8c001034070cd94e53909f:-1959801045,fe3c36ab268c0010668b9d3680c7af67:0,20db766b7d8c001015edc16a75a15a00:-1959801045,ad5e0d6781880010158c987721de1641:0,2f4e8967f18800109c9a331dff006d07:-1959801045,a50e4d2741880010d3585f31bea74291:0,a7fd8927878800105cbc80def89afae7:-1959801045,6da95aa98584401040a690d87e8ff053:0,c54c3f6ab293f300d5d7741c75e3ef35:-1959801045,496ef40e371b73001171e71292f1ab69:0,0b5e740e851b73002381b301dc3c7626:-1959801045,97efe57a720333002f2799a9019fa125:0,c9ef257a5d033300d1ec0201d42831a8:-1959801045,048ae705e8033300633c4e7648f7b165:0,197a2705ec033300d7faadbb2284fb21:-1959801045,80eb2ac0b9323300d92f5e6f32df1211:-862847805</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>000c1038a8f4426a9364904fb4913704</sys_id>
+        <sys_metadata>fef2d8bb4ff93200cb281b818110c703</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,myhomepage</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_view_fef2d8bb4ff93200cb281b818110c703</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_fef2d8bb4ff93200cb281b818110c703">bc0aeeb02f7a2010ca5b4ae72799b646</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

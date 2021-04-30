@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.GetEmailAddress</api_name>
+        <client_callable>true</client_callable>
+        <description>Script Include to return an email address.  The calling client-side script passes a sys_id for a User table record.</description>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    // Define the getEmail function.  
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+    // Return the email address for the requested record
+    getEmail: function() {
+        var userRecord = new GlideRecord("sys_user");
+        userRecord.get(this.getParameter('sysparm_userID'));
+        return userRecord.email + '';
+    },
+    type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 00:58:22</sys_created_on>
+        <sys_id>6e9c2dcf9f113200bde5f79ff57fcfd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_6e9c2dcf9f113200bde5f79ff57fcfd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 00:58:22</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_script_include_6e9c2dcf9f113200bde5f79ff57fcfd2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_58872_needit.GetEmailAddress&lt;/api_name&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description&gt;Script Include to return an email address.  The calling client-side script passes a sys_id for a User table record.&lt;/description&gt;
+        &lt;name&gt;GetEmailAddress&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    // Define the getEmail function.  
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+    // Return the email address for the requested record
+    getEmail: function() {
+        var userRecord = new GlideRecord("sys_user");
+        userRecord.get(this.getParameter('sysparm_userID'));
+        return userRecord.email + '';
+    },
+    type: 'GetEmailAddress'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-09 00:58:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6e9c2dcf9f113200bde5f79ff57fcfd2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;GetEmailAddress&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_6e9c2dcf9f113200bde5f79ff57fcfd2&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-09 00:58:22&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1562877635</payload_hash>
+        <record_name>GetEmailAddress</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:45</sys_created_on>
+        <sys_id>8e0a22f02f7a2010ca5b4ae72799b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c72a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:45</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ca0a22f0747a2010ba28c4cba4e15e93</update_guid>
+        <update_guid_history>ca0a22f0747a2010ba28c4cba4e15e93:0,f4f9eab0047a2010971f37a2c19b88ad:1976712522,46761d9ca0126010a9af8e8d23babd94:0,ea66199c7612601030e2b29cc237b6d4:1976712522,59213637b2022010d37e8a0df25ba2ca:0,9e1132377b022010d45af4b24bd74bcb:1976712522,8efdfcc3683120100167ed78f9c15530:0,23cd34c3e3312010ef31004fa860c389:1976712522,90babd48ed112010ee86b4c4555e52bd:0,2f8a7d08d7112010c75fb9d9362f2e02:1976712522,567c6fad683020109598bd79fc130f53:0,44bbefa9c230201000a31f72e925aa0a:1976712522,a85d467e5b6c2010e3c1ea2bdb04eb77:0,b7bc46ba036c2010a3e8af2253f1a1cf:1976712522,bb5245022c142010ac79df44be3dd346:0,27b898c346c79010738f6ed73c0d6154:1976712522,07094193ecae1c1040fc41c18e278a89:0,0fb881136eae1c1001b276555047fc9d:1976712522,a959ecc70659549022641769d7cf6574:0,bfb8e0076d59549076cc4a7536f81be2:1976712522,ba476be6045514909fa80e86b414c467:0,a027afa6fd551490b9b146e83e210b7f:1976712522,c6c656516891dc5027aca4edc837c7ed:0,b8b69e111791dc50faa870ac118c49ea:1976712522,869651e6c43c1410c4b867aa2cccba7b:0,c3865da6403c1410072fc02229f2e27c:1976712522,309590e28f141814bde2347807055a58:0,877598a2a5141814596e34acd9adb14d:1976712522,ca483dc3bf7bc89047df82e5b856139a:0,d238f5c3567bc890f740e68b775ffdd3:1976712522,7b877183e47bc89015fd56165b5e598d:0,c8577d03c47bc89009eccb429dc1833f:1976712522,f1c639cf9b3bc8905d72c0948caadd64:0,8186b18f3e3bc8901f17af4da13cc1a6:1976712522,4ce2d5c435a70050dad193fd7ad44304:0,20d291c4a5a7005043fe24c60fe4b7cc:1976712522,eac7edf3c00300105faf76981f725638:0,03bca82dfc0e0410d69e09fab50f9918:1976712522,85931485007c4010c26add63805a2383:0,0583dc452f7c4010f8b8ef0916478d8a:-61046721,1becb6eba88c0010b1b7b44428c4ccea:0,5edc72eb048c00100942756faf564db3:-61046721,ab3c76abe88c0010eab58133151a2565:0,c32c32ab878c00103a2791d5d0707552:-61046721,3adbf66bde8c001071bff0f852a425a2:0,e5cb726ba18c0010016e9fe9af146d52:-61046721,9e5e4d6701880010805aa0e655bf633d:0,e84ec567678800105589f43dbd25fd0a:-61046721,6a0e8d27ba8800109a89da8618a30e81:0,68fd0927f98800109b5c90b188a79d1a:-61046721,56a99aa92b8440101aecca7aebfd45d6:0,7d9956a94c84401090ed4153128921f5:-61046721,2e58d2e5bf844010194ce07a95dd5b18:0,6a48dea599844010e6c2bd7cdf3e783a:-61046721,5280ad2f9263330035abfbaa8168ac58:0,ad3029ab97633300e76c2544936ddde7:-61046721,b24cbf6a4293f3002932ae33747cd06f:0,5a3c7b6a7393f3007f5f85161dccccd4:-61046721,f16e380edd1b7300bc999fcffc99536b:0,625e340eaf1b73009c3ad300f4f5d2cc:-61046721,f3efe57a09033300a64ae56f8997cafc:0,01ef257aea033300c0e8245e68a7b752:-61046721,288a2b05de03330019d0464ea249732e:0,f75aafc1a8033300a5246332f0b7d9df:-61046721,a0eb2ac0ed323300f40c07cb86d94aed:0,24db26c01832330050b34ba4011f9079:-61046721,ba63596d35223300dbf84113c820856d:0,d463956d1b22330027861e48905e5e9c:-61046721,3bac58d81622330051bb1d23ce9b7ccb:0,02acd4d86922330050268216ab8a7390:-61046721,f18c0f22395a7300d1f88be76a55a5a8:0,2f7c8b22165a7300b822a1299d305f81:-61046721,f72a0a4bfb0233004dc5b8cb4991704c:164372420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0a7a2f4ca2044048b2e9636124869240</sys_id>
+        <sys_metadata>6e9c2dcf9f113200bde5f79ff57fcfd2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_include_6e9c2dcf9f113200bde5f79ff57fcfd2</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6e9c2dcf9f113200bde5f79ff57fcfd2">8e0a22f02f7a2010ca5b4ae72799b693</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

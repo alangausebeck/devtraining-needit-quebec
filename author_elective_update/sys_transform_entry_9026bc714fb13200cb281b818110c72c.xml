@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Import Historic NeedIt Data">13d5bc714fb13200cb281b818110c71e</map>
+        <reference_value_field/>
+        <source_field>u_requested_for</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_58872_needit_historic_</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-29 20:18:26</sys_created_on>
+        <sys_id>9026bc714fb13200cb281b818110c72c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_requested_for</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_entry_9026bc714fb13200cb281b818110c72c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 20:53:02</sys_updated_on>
+        <target_field>u_requested_for</target_field>
+        <target_table>x_58872_needit_needit</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_transform_entry_9026bc714fb13200cb281b818110c72c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;
+    &lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;
+        &lt;choice_action&gt;create&lt;/choice_action&gt;
+        &lt;coalesce&gt;true&lt;/coalesce&gt;
+        &lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;
+        &lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;
+        &lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;
+        &lt;map display_value="Import Historic NeedIt Data"&gt;13d5bc714fb13200cb281b818110c71e&lt;/map&gt;
+        &lt;reference_value_field/&gt;
+        &lt;source_field&gt;u_requested_for&lt;/source_field&gt;
+        &lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;
+        &lt;source_table&gt;x_58872_needit_historic_&lt;/source_table&gt;
+        &lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-29 20:18:26&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;9026bc714fb13200cb281b818110c72c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;u_requested_for&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_entry_9026bc714fb13200cb281b818110c72c&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-29 20:53:02&lt;/sys_updated_on&gt;
+        &lt;target_field&gt;u_requested_for&lt;/target_field&gt;
+        &lt;target_table&gt;x_58872_needit_needit&lt;/target_table&gt;
+        &lt;use_source_script&gt;false&lt;/use_source_script&gt;
+    &lt;/sys_transform_entry&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1662147223</payload_hash>
+        <record_name>u_requested_for</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:47</sys_created_on>
+        <sys_id>520a62f02f7a2010ca5b4ae72799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87cd5d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:47</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>9e0a22f0f67a2010ddddc82d7df437ff</update_guid>
+        <update_guid_history>9e0a22f0f67a2010ddddc82d7df437ff:0,93e9aab0e67a2010c1033328b16d38a4:204548609,a6765d9cd9126010e3cb374aec9da200:0,1566d59c941260107cee19ef03d2f295:204548609,7921763708022010c95c1f5eaa65bf36:0,5511fef383022010384ce10774a63bc6:204548609,66fdfcc39e3120104a734d93cf12d19d:0,61bdbc83aa31201022ac6f8d02a77d12:-2075023510,f0bafd48b1112010b3f5c7f2330cb172:0,f5b818c32ec79010479a069662ec85d6:-2075023510,63098193abae1c10a3dc213c57d7b168:0,bab8a00734595490089b2d27b40498c6:204548609,03476be634551490b4c2102e8057d5f5:0,db072ba6da55149049dd099ec34110f3:-2075023510,66c69651d791dc50aba4ab0dd9f82d7c:0,bba69e116e91dc5017ddf07e3c245e11:204548609,569651e6a93c141051afb9a8427183da:0,8a861da6893c1410ccacbef67718c3a2:204548609,c99590e21d14181483896faa094412dc:0,33ace42de90e0410846f1f711d6a3520:-2075023510,9d931485877c40106a36650bb657c0c8:0,abccfeab8c8c001021d3dc12c88d1c02:-2075023510,373c76aba08c00107e195c93ce9b3bbb:0,1abb7e2b708c001012fbd750d64f33fc:-2075023510,6e5e4d67b4880010719b7b787b9e8c9e:0,853e0567b7880010c86477c7c6b0f33c:-2075023510,2a0e8d27e7880010a3cde133293a0de2:0,49ed0527648800105dbf8bd03ac87fef:-2075023510,66a9daa93a844010fa4ba7b43dd78339:0,8d3c3b6a5193f300ca97d192fd52178b:204548609,f96e380e661b7300319f8c13b5d96ab5:0,a15ef00e011b730073db869025989685:204548609,c8ff297a9003330092de19fd45514846:0,48efe17aea033300db940dc26007406f:204548609,708a2b05ac033300bb3c3342147c5b92:0,164a6bc15e0333009a56764b68b6a1d2:-2075023510,78eb6ac0353233008072b1dd7d415143:0,4fcba2c0ed3233000eac62072dd7e6b1:204548609,3263596dbb22330026e8d6d06d6088a2:1271381105</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>f33dbc718d0d4325acb28ef0dfe6d961</sys_id>
+        <sys_metadata>9026bc714fb13200cb281b818110c72c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_transform_entry_9026bc714fb13200cb281b818110c72c</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_9026bc714fb13200cb281b818110c72c">520a62f02f7a2010ca5b4ae72799b600</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

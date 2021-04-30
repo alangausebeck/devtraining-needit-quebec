@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>read</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 00:59:49</sys_created_on>
+        <sys_id>592d29039f513200bde5f79ff57fcf57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 00:59:49</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 00:59:49</sys_created_on>
+        <sys_id>592d29039f513200bde5f79ff57fcf57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 00:59:49</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>]]></payload>
+        <payload_hash>-1867251027</payload_hash>
+        <record_name>sys_user</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:44</sys_created_on>
+        <sys_id>a50a22f02f7a2010ca5b4ae72799b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c2b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:44</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>e10a22f0987a2010d3d6297e109a645b</update_guid>
+        <update_guid_history>e10a22f0987a2010d3d6297e109a645b:0,6cf9eab04b7a201053baf8ace976a477:1823149021,b9761d9c1d1260103389950ae7b8595b:0,1266199cdb1260106aadcd9a073524b4:1823149021,592136373f02201034e3cc82f27a1782:0,9a113237a7022010f4acaed9718a399a:1823149021,39fdbcc3543120107d38d9a2bb230be8:0,21cdb0c3c5312010cc3b5eb8d9c7d880:1823149021,14babd488011201010cae48e4831873a:0,5b8a3d08e81120102cd95cddc6d26da3:1823149021,ce7c2fada83020100e8c4d10f8e431f6:0,63abafa949302010075585ae83e620c4:1823149021,985d467e6c6c2010af11dbffcafa984a:0,e3bc46ba496c2010bd162ca66a8522a1:1823149021,2f5205021c142010af9081d72ed083f8:0,17b898c3ccc79010e1380fe1bedb122e:1823149021,b60941937aae1c107ff35cc8c319382b:0,56b841135dae1c106ecfef0206560d5e:1823149021,2159ecc78e595490ed654ea492c1fe2b:0,2bb8e007c5595490509b2f76d547aab3:1823149021,2e476be65355149055d9ef023a5d9738:0,33176fa61555149089f76d799bb7eeb8:1823149021,4ec656511c91dc50c57dcb5712a55c9c:0,e8b69e116891dc50a1dc498f8a822ea3:1823149021,719651e6d33c141090295a6f8c26fc1e:0,cf865da6953c1410a066bc3f18daf260:1823149021,2c9590e263141814e7bd4b21e754701c:0,4b7598a2d7141814686cf8e1e97d9418:1823149021,31483dc31d7bc8905ab6c7c85d1d5673:0,4a38f5c3457bc8906af9d03bf2acef6f:1823149021,23877183007bc8903cacf08b4fc92f4b:0,53473d03497bc890349503499d467885:1823149021,71c639cfce3bc890881c666c96753444:0,3086b18f163bc8902f19ad291347c744:1823149021,fbd295c45aa7005024584b95007cbce4:0,00d291c4d9a700505822ee10bacab856:1823149021,2ac7edf3f80300108c547ac77123ea04:0,d2bc682d8a0e0410b2cf6b9906759f89:1823149021,30931485e17c4010777ff396ad28d144:0,bc83dc45a87c4010053a570cff22e003:1823149021,43ecb6eb728c00101eb5633843a23ea5:0,0edc72eb018c00109a0f435308b27019:1823149021,a73c76abfb8c0010d00450377b79113b:0,a62cfe6b2b8c0010a447c053796806ea:1823149021,f6dbf66be68c00100b7beb670ddd5a69:0,70cb326bdb8c001046086a461878c99b:1823149021,8a5e4d677d8800100e0f9159c5e5e613:0,3b3e85672e88001059d03b7bf16b6f3f:1823149021,9e0e8d27e28800104be31c38b76f564a:0,77edc5278e880010c0d6a8fd4ac2e250:1823149021,daa99aa9bb84401049aac81524904d9f:0,309956a908844010f8afd6e623801737:1823149021,aa5892e5b0844010fe97be86e3a8d9fc:0,b1489ea584844010885370df18285829:1823149021,1e80ad2fe86333001b54bd10314e1a33:0,472065ab2c6333005d82691e687245b8:1823149021,f64cbf6aa093f3005952213ab426b738:0,163c7b6a9093f30069d91a00d4d619ba:1823149021,e16e380e501b730067c53750d4cd1a17:0,ee5e340ead1b7300d9d91c26fa988780:1823149021,abefe57af303330068f8b51a5871abc6:0,38ef257aab0333000c15f89b4363913b:1823149021,d08a2b051b03330056001532f6617307:0,ba5aafc1e2033300b3c3542fc9bc0224:1823149021,60eb2ac0a7323300c024e41b706b4abf:0,dcdbe2c0bf323300521da0f3264713f8:1823149021,ee63596d86223300add7597bfbe8533d:0,0063956d6b2233009cefde49ebad0d89:1823149021,7fac58d8982233004c7759ed68354d9b:0,ceacd4d8452233002c3b858602376873:1823149021,758c0f22955a7300a8fd59611df34a8e:0,5b7c8b225b5a73007ab481d41cbc7d5d:1823149021,632a0a4b6d0233004ad3ba6961121f2c:-1867251027</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>1f1c1c628136442a99af670086adac44</sys_id>
+        <sys_metadata>592d29039f513200bde5f79ff57fcf57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_592d29039f513200bde5f79ff57fcf57</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_592d29039f513200bde5f79ff57fcf57">a50a22f02f7a2010ca5b4ae72799b65b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeedItUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Utils Script Include for the NeedIt application.</description>
+        <name>NeedItUtils</name>
+        <script><![CDATA[var NeedItUtils = Class.create();
+NeedItUtils.prototype = {
+    initialize: function() {
+    },
+	isDatePast: function(strDate){
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		
+		// If the testdate is before rightnow, return true, else return false
+		if (testdate.before(rightnow)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+		isDateToday: function(strDate){
+		
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		// Get the date portion of rightnow and testdate (no timestamp)
+		var today = rightnow.getLocalDate();
+		var istoday = testdate.getLocalDate();
+	
+		// Compare today and istoday to see if they are the same day
+		if(today.compareTo(istoday) == 0){
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+    type: 'NeedItUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-09 21:52:03</sys_created_on>
+        <sys_id>6e6bc21b9f913200bde5f79ff57fcfb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-09 21:52:03</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f6d34fedb2137409df22f17d49619f6</instance_id>
+        <instance_name>dev86777</instance_name>
+        <name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_58872_needit.NeedItUtils&lt;/api_name&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description&gt;Utils Script Include for the NeedIt application.&lt;/description&gt;
+        &lt;name&gt;NeedItUtils&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var NeedItUtils = Class.create();
+NeedItUtils.prototype = {
+    initialize: function() {
+    },
+	isDatePast: function(strDate){
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		
+		// If the testdate is before rightnow, return true, else return false
+		if (testdate.before(rightnow)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+		isDateToday: function(strDate){
+		
+		// Create GlideDateTime objects for the current date and the passed in date
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		// Get the date portion of rightnow and testdate (no timestamp)
+		var today = rightnow.getLocalDate();
+		var istoday = testdate.getLocalDate();
+	
+		// Compare today and istoday to see if they are the same day
+		if(today.compareTo(istoday) == 0){
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+    type: 'NeedItUtils'
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-03-09 21:52:03&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6e6bc21b9f913200bde5f79ff57fcfb6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;NeedItUtils&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-03-09 21:52:03&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1732163703</payload_hash>
+        <record_name>NeedItUtils</record_name>
+        <reverted_from/>
+        <source>12d9a6b02f7a2010ca5b4ae72799b637</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-07 16:31:45</sys_created_on>
+        <sys_id>8e0a22f02f7a2010ca5b4ae72799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1780d87c6f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-07 16:31:45</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f90a22f00f7a201081e5d4ea6ce0338f</update_guid>
+        <update_guid_history>f90a22f00f7a201081e5d4ea6ce0338f:0,b0f9eab0047a201015dc98ad83177aa4:257620316,46761d9cd112601004a11af4c4e72d90:0,1666199cda1260107e2c47754aa20ecb:257620316,5921363774022010c5381ffa3e06a5c6:0,d6113237de02201079b997b64ca566c2:257620316,8efdfcc32f312010fcc0b9de876c162c:0,ebcd34c3d3312010c505547242320d66:257620316,14babd486311201098e32d674b8227a0:0,2f8a3d085d112010071008332d004fdd:257620316,567c6fadfa30201024b2bb61aba3744f:0,7babefa9e630201010f984bc45dc0b00:257620316,a85d467ec26c201045b42bb718f91f73:0,ffbc46ba6a6c201044dbba7379bf2ac5:257620316,bb5245026d142010e9e924d7251a4942:0,6bb898c3a4c79010e41576b88027584c:257620316,07094193e3ae1c1004ce4cb8adf8e685:0,bfb8e0073c5954906e576b1e820e27db:257620316,3e476be6d05514904132d84d2a62bb63:0,2427afa6db55149073aa391a03cb8778:257620316,4ac656513591dc50d1554156d3388de9:0,b8b69e118491dc5064770cad086142e3:257620316,0a9651e64c3c141011a80c878b27bd77:0,c3865da6df3c1410ff3b2b6624d42f75:257620316,b09590e21914181412136ae4cd3baa54:0,8f7598a23e14181433173d9768238339:257620316,4e483dc38c7bc8906d494726cbd15696:0,9238f5c3dc7bc8901f6e3ef32bd2f8cc:257620316,37877183d47bc890315bd62ae304eb7d:0,88577d03597bc8905f149d614f499538:257620316,75c639cf273bc890dc1687bdce96d460:0,4186b18fd63bc8905faccc42a3188b9f:257620316,cce2d5c40da70050b7f88b09aed15000:0,1cd291c4b5a70050c4753cfeeb7bbe9f:257620316,6ec7edf38a030010bc19c602bcb0df34:0,72bca82d5b0e0410665d88b907cb5911:257620316,c9931485a37c4010def8fc1ac499bc7f:0,dadc72eb738c0010de30d61d215654ad:-430487215,ef3c76ab348c00104e23ebc8c096de61:0,a5cb726b7e8c0010e0e6ec3d4a75264c:-430487215,d25e4d6743880010132afb01661b593a:0,684ec5671c880010928b8326f2f87204:-430487215,ae0e8d27bd8800101fe446290f6a767d:0,e4fd09272b880010166379fb81ce1c14:-430487215,9aa99aa98d8440105c39f527b08ee9d2:0,f99956a9038440109e7223533b90f0ef:-430487215,6258d2e54c844010b623680e7f18bf15:0,e648dea5358440100e815eb6f6804534:-430487215,9680ad2f7f633300cb23478060f0dc54:0,5a3c7b6ad293f300b9ae8ce01023bdce:-430487215,3d6e380e541b7300b93d42fb39966167:0,625e340edf1b7300a512411aa7d85fc6:-430487215,3fefe57aac03330056a2ffc62c4645f8:0,30ef257a320333007e925c6b24d7734c:-430487215,608a2b055c033300aeb8cca15349212b:0,ff5aafc11f033300641cd0808b8251cc:-430487215,e8eb2ac0a73233000f45fba6afc045e9:0,28db26c04d3233000a2300369144c65a:-430487215,f263596dab223300f0f4206f2f166e6a:0,5863956d5f223300b9a88be6da773f96:-430487215,bbac58d85c2233000ae4168df7045cbb:0,02acd4d8ac223300a461ac878fdb188a:-430487215,3d8c0f22085a7300d8cd6fddb55702a4:0,1f7c8b22bf5a7300ef926c57151c0b7b:-430487215,732a0a4bf0023300bb158f9e656ab849:-974100844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 22:53:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>25f84c07934341d48d5ae1bb5844fec9</sys_id>
+        <sys_metadata>6e6bc21b9f913200bde5f79ff57fcfb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6e6bc21b9f913200bde5f79ff57fcfb6">8e0a22f02f7a2010ca5b4ae72799b68f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 22:53:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
