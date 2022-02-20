@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" extends="cmdb_qb_result_base" label="BA and IO relationship-Query Results" max_length="40" name="x_58872_needit_u_cmdb_qb_result_edcb42550dee7ecb80e3118fca525283d7e5ed8d" sizeclass="0" type="collection"/>
+</database>
